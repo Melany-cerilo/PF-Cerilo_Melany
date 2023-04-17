@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catálogo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="shortcut icon" href="../imagenes/logo.png" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Raleway:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="container">
+    <nav class="navbar navbar-expand-lg menu_nav fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="../index.html"
+          ><img src="../imagenes/logo.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link mx-4" aria-current="page" href="../index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4" href="novedades.html">Novedades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active mx-4" href="genero.html">Catálogo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4" href="foro.html">Foro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-4" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- <div>
+      <div class="titulo">
+        <h1 class="display-1 text-center">Conocé todos los <br />géneros</h1>
+      </div>
+    </div> -->
+    <div class="titulo">
+      <div class="card text-bg-dark shadow bg-body-tertiary rounded">
+        <img src="../imagenes/onepiece.jpeg" class="card-img" alt="..." />
+        <div class="card-img-overlay bg-opacity-75">
+          <h1
+            class="card-title text-center display-1 py-1 text-shadow font-bangers"
+          >
+            catálogo
+          </h1>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div
+        class="row row-cols-1 px-2 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-4"
+      >
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/naruto_genero.png"
+              class="card-img-top foto_generos"
+              alt="Naruto"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Naruto</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Masashi Kishimoto, sigue la
+                historia de un joven ninja llamado Naruto Uzumaki que sueña con
+                convertirse en Hokage, el líder de su aldea.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/one_piece_genero.png"
+              class="card-img-top foto_generos"
+              alt="One Piece"
+            />
+            <div class="card-body">
+              <h5 class="card-title">One Piece</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Eiichiro Oda, sigue la
+                historia de un joven pirata llamado Monkey D. Luffy que busca el
+                tesoro más grande del mundo, el One Piece, para convertirse en
+                el Rey de los Piratas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/death_note_genero.png"
+              class="card-img-top foto_generos"
+              alt="Death Note"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Death Note</h5>
+              <p class="card-text">
+                Descripción: Escrito por Tsugumi Ohba e ilustrado por Takeshi
+                Obata, cuenta la historia de un joven llamado Light Yagami que
+                encuentra un cuaderno sobrenatural que puede matar a cualquiera
+                cuyo nombre sea escrito en él.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/dragon_ball_genero.png"
+              class="card-img-top foto_generos"
+              alt="Dragon Ball"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Dragon Ball</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Akira Toriyama, cuenta la
+                historia de un joven guerrero llamado Goku que busca las siete
+                bolas de dragón para conceder cualquier deseo que se le ocurra.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/my_h_academy_genero.png"
+              class="card-img-top foto_generos"
+              alt="My Hero Academia"
+            />
+            <div class="card-body">
+              <h5 class="card-title">My Hero Academia</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Kohei Horikoshi, se
+                desarrolla en un mundo donde la mayoría de la población tiene
+                superpoderes y sigue la historia de un joven llamado Izuku
+                Midoriya, que quiere convertirse en un héroe.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/bleach_genero.png"
+              class="card-img-top foto_generos"
+              alt="Bleach"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Bleach</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Tite Kubo, sigue la
+                historia de un adolescente llamado Ichigo Kurosaki que obtiene
+                poderes de un shinigami, un ser que guía a las almas hacia la
+                otra vida.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/attack_on_titans_genero.png"
+              class="card-img-top foto_generos"
+              alt="Attack on Titan"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Attack on Titan</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Hajime Isayama, cuenta la
+                historia de la humanidad luchando contra gigantes devoradores de
+                hombres llamados Titanes.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/fullmetal_genero.png"
+              class="card-img-top foto_generos"
+              alt="Fullmetal Alchemist"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Fullmetal Alchemist</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Hiromu Arakawa, sigue la
+                historia de dos hermanos alquimistas que buscan la piedra
+                filosofal para recuperar sus cuerpos después de una fallida
+                transmutación humana.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/jojos_genero.png"
+              class="card-img-top foto_generos"
+              alt="JoJo's"
+            />
+            <div class="card-body">
+              <h5 class="card-title">JoJo's</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Hirohiko Araki, sigue la
+                historia de varias generaciones de la familia Joestar y sus
+                aventuras sobrenaturales.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/hxh_genero.png"
+              class="card-img-top foto_generos"
+              alt="Hunter x Hunter"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Hunter x Hunter</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Yoshihiro Togashi, sigue la
+                historia de un joven llamado Gon Freecss que busca a su padre
+                desaparecido y se convierte en un cazador, un tipo de aventurero
+                licenciado.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/fruits_basket_genero.png"
+              class="card-img-top foto_generos"
+              alt="Fruits Basket"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Fruits Basket</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Natsuki Takaya, sigue la
+                historia de una chica llamada Tohru Honda que se encuentra
+                viviendo con una familia maldita y debe ayudar a romper la
+                maldición.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/nana_genero.png"
+              class="card-img-top foto_generos"
+              alt="Nana"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Nana</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Ai Yazawa, cuenta la
+                historia de dos chicas de diferente origen, ambas llamadas Nana,
+                que se encuentran en Tokio y se convierten en amigas cercanas
+                mientras luchan con sus problemas personales.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/skip_beat.png"
+              class="card-img-top foto_generos"
+              alt="Skip Beat!"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Skip Beat!</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Yoshiki Nakamura, sigue la
+                historia de Kyoko Mogami, quien se convierte en actriz para
+                vengarse de su exnovio por su traición.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/kaisama_kiss_genero.png"
+              class="card-img-top foto_generos"
+              alt="Kamisama Kiss"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kamisama Kiss</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Julietta Suzuki, cuenta la
+                historia de una chica llamada Nanami que se convierte en la
+                diosa de un santuario y debe lidiar con los problemas
+                sobrenaturales que vienen con su nueva posición.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/vampire_knight_genero.png"
+              class="card-img-top foto_generos"
+              alt="Vampire Knight"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Vampire Knight</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Matsuri Hino, sigue la
+                historia de una chica llamada Yuki Cross, quien se encuentra en
+                el centro de una lucha entre vampiros y humanos y debe descubrir
+                la verdad detrás de su propia historia.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/maid_sama_genero.png"
+              class="card-img-top foto_generos"
+              alt="Maid-sama!"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Maid-sama!</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Hiro Fujiwara, cuenta la
+                historia de una chica llamada Misaki Ayuzawa, quien es la
+                presidenta del consejo estudiantil en su escuela y trabaja a
+                tiempo parcial en un café de sirvientas para ayudar a su
+                familia.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/kimi_ni_todoke_genero.png"
+              class="card-img-top foto_generos"
+              alt="Kimi ni Todoke"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kimi ni Todoke</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Karuho Shiina, sigue la
+                historia de una chica llamada Sawako que es malinterpretada por
+                sus compañeros de clase y lucha por hacer amigos y encontrar
+                amor.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/ao_haru_ride_genero.png"
+              class="card-img-top foto_generos"
+              alt="Ao Haru Ride"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Ao Haru Ride</h5>
+              <p class="card-text">
+                Escrito e ilustrado por Io Sakisaka, cuenta la historia de una
+                chica llamada Futaba Yoshioka que se reencuentra con su amor de
+                la infancia después de años y trata de reavivar su relación.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/love_so_life_genero.png"
+              class="card-img-top foto_generos"
+              alt="Love So Life"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Love So Life</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Kaede Kouchi, sigue la
+                historia de una chica llamada Shiharu Nakamura que trabaja en
+                una guardería y cuida de dos hermanos huérfanos, mientras lidia
+                con sus sentimientos por el padre de los niños.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/the_wallflowers_genero.png"
+              class="card-img-top foto_generos"
+              alt="The Wallflower"
+            />
+            <div class="card-body">
+              <h5 class="card-title">The Wallflower</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Tomoko Hayakawa, cuenta la
+                historia de una chica llamada Sunako que se considera a sí misma
+                fea y horrorosa y vive en una casa con cuatro chicos guapos que
+                intentan transformarla en una dama refinada.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/doraemon_genero.png"
+              class="card-img-top foto_generos"
+              alt="Doraemon"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Doraemon</h5>
+              <p class="card-text">
+                Descripción: Es una de las series de manga más populares de
+                todos los tiempos, sigue las aventuras de un gato-robot llamado
+                Doraemon y su amigo humano Nobita.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/chis_sweet_genero.png"
+              class="card-img-top foto_generos"
+              alt="Chi's Sweet Home"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Chi's Sweet Home</h5>
+              <p class="card-text">
+                Descripción: Cuenta la historia de una pequeña gatita llamada
+                Chi que se pierde y es adoptada por una familia. El manga sigue
+                sus travesuras y exploración del mundo que la rodea, y es
+                conocido por su estilo de dibujo adorable y tierno.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/yotsuba_genero.png"
+              class="card-img-top foto_generos"
+              alt="Yotsuba&!"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Yotsuba&!</h5>
+              <p class="card-text">
+                Descripción: Sigue las aventuras de una niña de cinco años
+                llamada Yotsuba y su familia. La serie está llena de humor y
+                situaciones cotidianas, y es famosa por su estilo de dibujo
+                detallado y colorido.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/shugo_chara_genero.png"
+              class="card-img-top foto_generos"
+              alt="Shugo Chara!"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Shugo Chara!</h5>
+              <p class="card-text">
+                Descripción: Narra la historia de Amu Hinamori, una niña tímida
+                que desea ser más extrovertida. Un día, tres huevos mágicos
+                aparecen en su cama, y al eclosionar se convierten en seres que
+                le ayudarán a descubrir su verdadero yo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/sailor_genero.png"
+              class="card-img-top foto_generos"
+              alt="Sailor Moon"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Sailor Moon</h5>
+              <p class="card-text">
+                Descripción: Es una serie de aventuras mágicas y romance, sigue
+                a Usagi Tsukino, una adolescente que se transforma en una
+                heroína mágica para luchar contra el mal. La serie aborda temas
+                como la amistad y la lealtad.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/komocha_genero.png"
+              class="card-img-top foto_generos"
+              alt="Kodomo no Omocha"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kodomo no Omocha</h5>
+              <p class="card-text">
+                Descripción: La serie sigue a una estrella infantil llamada Sana
+                Kurata y su vida diaria en la escuela y en casa. La serie aborda
+                temas como la amistad, el amor y la responsabilidad.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/crayon_genero.png"
+              class="card-img-top foto_generos"
+              alt="Crayon Shin-chan"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Crayon Shin-chan</h5>
+              <p class="card-text">
+                Descripción: Es una serie de comedia y humor absurdo, sigue a un
+                niño llamado Shin-chan y su familia. La serie está llena de
+                humor escatológico y es conocida por su estilo de dibujo
+                caricaturesco.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/hamtaro_genero.png"
+              class="card-img-top foto_generos"
+              alt="Hamtaro"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Hamtaro</h5>
+              <p class="card-text">
+                Descripción: Sigue las aventuras de un grupo de hamsters
+                domésticos y sus travesuras en el jardín. La serie es famosa por
+                su estilo de dibujo lindo y adorable.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/hello_kitty_genero.png"
+              class="card-img-top foto_generos"
+              alt="Hello Kitty"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Hello Kitty</h5>
+              <p class="card-text">
+                Descripción: Narra las aventuras de la famosa gatita blanca y
+                sus amigos en su ciudad natal. La serie es conocida por su
+                estilo de dibujo kawaii y su enfoque en la amistad y la
+                diversión.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/pokemon_genero.png"
+              class="card-img-top foto_generos"
+              alt="Pokémon Adventures"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pokémon Adventures</h5>
+              <p class="card-text">
+                Descripción: Es una serie de aventuras y acción, sigue las
+                aventuras de varios entrenadores de Pokémon en su camino hacia
+                el Campeonato de la Liga Pokémon.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/promised_neverland_genero.png"
+              class="card-img-top foto_generos"
+              alt="Promised Neverland"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Promised Neverland</h5>
+              <p class="card-text">
+                Descripción: Es un manga de fantasía que sigue a un grupo de
+                huérfanos que descubren que su hogar es en realidad una granja
+                humana y que ellos son el alimento para los demonios que los han
+                criado. La serie está llena de suspenso, intriga y acción.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/demon_slayer_genero.png"
+              class="card-img-top foto_generos"
+              alt="Demon Slayer"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Demon Slayer</h5>
+              <p class="card-text">
+                Descripción: Es un manga de fantasía que sigue a Tanjiro Kamado,
+                un joven que se convierte en cazador de demonios después de que
+                su familia sea asesinada por un demonio. La serie está llena de
+                acción, drama y fantasía sobrenatural.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/dr_stone_genero.png"
+              class="card-img-top foto_generos"
+              alt="Dr. Stone"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Dr. Stone</h5>
+              <p class="card-text">
+                Descripción: Es un manga de fantasía que sigue a un grupo de
+                jóvenes científicos que intentan reconstruir la civilización
+                después de que toda la humanidad se convierta en piedra. La
+                serie está llena de ciencia, aventuras y comedia.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/seven_deadly_genero.png"
+              class="card-img-top foto_generos"
+              alt="Seven Deadly Sins"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Seven Deadly Sins</h5>
+              <p class="card-text">
+                Descripción: Es un manga de fantasía que sigue a un grupo de
+                guerreros poderosos conocidos como los Siete Pecados Capitales,
+                mientras luchan contra fuerzas oscuras que amenazan el reino. La
+                serie está llena de acción, aventuras y fantasía.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/made_in_abyss_genero.png"
+              class="card-img-top foto_generos"
+              alt="Made in Abyss"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Made in Abyss</h5>
+              <p class="card-text">
+                Descripción: Es un manga de fantasía que sigue a una joven
+                llamada Riko mientras se adentra en un pozo gigante llamado el
+                Abismo, en busca de su madre desaparecida. La serie está llena
+                de aventuras, misterio y fantasía.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/black_clover_genero.png"
+              class="card-img-top foto_generos"
+              alt="Black Clover"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Black Clover</h5>
+              <p class="card-text">
+                Descripción: Es un manga de fantasía que sigue a Asta, un joven
+                que sueña con convertirse en el rey mago del reino, a pesar de
+                no tener magia. La serie está llena de acción, aventuras y
+                fantasía.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/akira_genero.png"
+              class="card-img-top foto_generos"
+              alt="Akira"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Akira</h5>
+              <p class="card-text">
+                Descripción: Es un manga de fantasía que tiene lugar en un mundo
+                post-apocalíptico donde un joven llamado Tetsuo descubre que
+                tiene poderes psíquicos. La serie está llena de acción, ciencia
+                ficción y fantasía.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/claymore_genero.png"
+              class="card-img-top foto_generos"
+              alt="Claymore"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Claymore</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Hirohiko Araki, sigue la
+                historia de varias generaciones de la familia Joestar y sus
+                aventuras sobrenaturales.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/inuyasha_genero.png"
+              class="card-img-top foto_generos"
+              alt="Inuyasha"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Inuyasha</h5>
+              <p class="card-text">
+                Descripción: Es un manga de fantasía y aventuras que sigue a
+                Kagome, una chica moderna que es transportada a la era feudal
+                japonesa, donde se une a un semi-demonio llamado Inuyasha para
+                recuperar fragmentos de una joya mágica.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/uzumaki_gnero.png"
+              class="card-img-top foto_generos"
+              alt="Uzumaki"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Uzumaki</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Ai Yazawa, cuenta la
+                historia de dos chicas de diferente origen, ambas llamadas Nana,
+                que se encuentran en Tokio y se convierten en amigas cercanas
+                mientras luchan con sus problemas personales.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/berserk_genero.png"
+              class="card-img-top foto_generos"
+              alt="Berserk"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Berserk</h5>
+              <p class="card-text">
+                Descripción: Escrito e ilustrado por Eiichiro Oda, sigue la
+                historia de un joven pirata llamado Monkey D. Luffy que busca el
+                tesoro más grande del mundo, el One Piece, para convertirse en
+                el Rey de los Piratas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/parasyte_genero.png"
+              class="card-img-top foto_generos"
+              alt="Parasyte"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Parasyte</h5>
+              <p class="card-text">
+                Descripción: Es un manga de ciencia ficción y terror que sigue a
+                un adolescente llamado Shinichi Izumi, cuyo brazo es invadido
+                por un parásito alienígena.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/shiki_genero.png"
+              class="card-img-top foto_generos"
+              alt="Shiki"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Shiki</h5>
+              <p class="card-text">
+                Descripción: Es un manga de terror que sigue a los habitantes de
+                un pueblo mientras son atacados por vampiros.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/hellstar_genero.png"
+              class="card-img-top foto_generos"
+              alt="Hellstar Remina"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Hellstar Remina</h5>
+              <p class="card-text">
+                Descripción: Es un manga de ciencia ficción y terror que sigue a
+                un planeta recién descubierto que se dirige hacia la Tierra,
+                causando pánico y destrucción en el proceso.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/drifting_classroom_genero.png"
+              class="card-img-top foto_generos"
+              alt="Drifting Classroom"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Drifting Classroom</h5>
+              <p class="card-text">
+                Descripción: Es un manga de terror que sigue a un grupo de
+                estudiantes de una escuela que es transportada a un mundo
+                postapocalíptico.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/doubt_genero.png"
+              class="card-img-top foto_generos"
+              alt="Doubt"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Doubt</h5>
+              <p class="card-text">
+                Descripción:Es un manga de terror que sigue a un grupo de amigos
+                que juegan un juego de "verdad o consecuencia" que se convierte
+                en una lucha por la supervivencia.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/homunculus_genero.png"
+              class="card-img-top foto_generos"
+              alt="Homunculus"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Homunculus</h5>
+              <p class="card-text">
+                Descripción: Es un manga de terror psicológico que sigue a un
+                hombre que experimenta con su cerebro para ver visiones.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow bg-body-tertiary rounded h-100">
+            <img
+              src="../imagenes/hideout_genero.png"
+              class="card-img-top foto_generos"
+              alt="Hideout"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Hideout</h5>
+              <p class="card-text">
+                Descripción: Es un manga de terror que sigue a un asesino que se
+                esconde en una cabaña en la montaña, solo para ser perseguido
+                por un misterioso perseguidor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-sm">
+        <div class="footer-sm__icons">
+          <div>Buscanos en las redes</div>
+          <div>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom__copyright">
+        &copy;Copyright 2023 <a href="#">MangaManía</a> | Creada por
+        <a href="#">Melany_Cerilo</a>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
