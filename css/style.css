@@ -90,8 +90,27 @@ footer {
   font-size: 22px;
   background-color: #bbb2b2;
 }
-/* .bg-foro {
-    background-image: url("../imagenes/Nezuko_haori.jpeg");
-    background-size: cover;
-    background-position: center;
-  } */
+.bg-foro {
+  background-image: url("../imagenes/ochaco.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.bg-foro-1 {
+  background-image: url("../imagenes/deku_foro.png");
+  background-size: cover;
+  background-position: center;
+}
+.bg-foro-2 {
+  background-image: url("../imagenes/todoroki_foro_2.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.bg-foro-3 {
+  background-image: url("../imagenes/academy_foro_busqueda.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.text_white {
+  color: black;
+  text-decoration: none;
+}
