@@ -1,0 +1,12 @@
+.card_style {
+  border: 2px solid $terciary-color;
+  background-color: $background-color-card;
+  color: $secondary-color;
+}
+.card-body {
+  background-color: $background-text-card;
+}
+
+.carrusel_novedades {
+  @include padding_top_bottom(20rem, 8rem);
+}

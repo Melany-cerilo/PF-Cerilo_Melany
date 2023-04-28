@@ -1,0 +1,16 @@
+.text_white {
+  color: $secondary-color;
+  text-decoration: none;
+}
+.bg-foro {
+  @include imagenfondo("../imagenes/ochaco.jpeg");
+}
+.bg-foro-1 {
+  @include imagenfondo("../imagenes/deku_foro.png");
+}
+.bg-foro-2 {
+  @include imagenfondo("../imagenes/todoroki_foro_2.jpeg");
+}
+.bg-foro-3 {
+  @include imagenfondo("../imagenes/academy_foro_busqueda.jpeg");
+}

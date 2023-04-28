@@ -1,0 +1,8 @@
+.form-label-style {
+  color: $secondary-color;
+  font-size: 22px;
+  background-color: $background-color-card;
+}
+.bg-contacto {
+  @include imagenfondo("../imagenes/pochita_bg.jpeg");
+}

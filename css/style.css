@@ -2,9 +2,25 @@
   width: 8rem;
   height: 8rem;
 }
+
 .menu_nav {
   background-color: white;
 }
+
+.borde {
+  border: 2px solid rgb(156, 9, 9);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+.font-bangers {
+  font-family: "Bangers", cursive;
+}
+
 .titulo {
   padding-top: 14rem;
   padding-bottom: 8rem;
@@ -14,12 +30,21 @@
   background-color: black;
   color: white;
 }
-
 .sobre_nosotros h2 {
   padding-bottom: 4rem;
 }
 .sobre_nosotros h4 {
   padding-bottom: 2rem;
+}
+
+.card_style {
+  border: 2px solid rgb(156, 9, 9);
+  background-color: #bbb2b2;
+  color: black;
+}
+
+.card-body {
+  background-color: #f2f1ed;
 }
 
 .carrusel_novedades {
@@ -31,56 +56,36 @@
   width: 100%;
   height: 27.5rem;
 }
-.borde {
-  border: 2px solid brown;
-  margin: 1rem;
-  padding: 1rem;
-}
 
-footer {
-  background-color: black;
-  margin-top: 5rem;
-}
-
-.footer-sm {
-  background-color: darkred;
-  color: white;
-}
-
-.footer-sm a {
-  color: white;
-}
-.footer-sm__icons {
-  text-align: center;
-}
-.footer-bottom__copyright {
-  text-align: center;
-  color: gray;
-  background-color: black;
-}
-.footer-bottom__copyright a {
-  color: gray;
-  text-decoration: none;
-}
-.card_style {
-  border: 2px solid rgb(156, 9, 9);
-  background-color: #bbb2b2;
-  color: black;
-}
-
-.text-shadow {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-}
-
-.font-bangers {
-  font-family: "Bangers", cursive;
-}
 .card-body {
   background-color: #f2f1ed;
 }
 
-.bg-contacto {
-  background-image: url("../imagenes/pochita_bg.jpeg");
+.text_white {
+  color: black;
+  text-decoration: none;
+}
+
+.bg-foro {
+  background-image: url("../imagenes/ochaco.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-foro-1 {
+  background-image: url("../imagenes/deku_foro.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-foro-2 {
+  background-image: url("../imagenes/todoroki_foro_2.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-foro-3 {
+  background-image: url("../imagenes/academy_foro_busqueda.jpeg");
   background-size: cover;
   background-position: center;
 }
@@ -90,27 +95,35 @@ footer {
   font-size: 22px;
   background-color: #bbb2b2;
 }
-.bg-foro {
-  background-image: url("../imagenes/ochaco.jpeg");
+
+.bg-contacto {
+  background-image: url("../imagenes/pochita_bg.jpeg");
   background-size: cover;
   background-position: center;
 }
-.bg-foro-1 {
-  background-image: url("../imagenes/deku_foro.png");
-  background-size: cover;
-  background-position: center;
+
+footer {
+  background-color: black;
+  margin-top: 5rem;
 }
-.bg-foro-2 {
-  background-image: url("../imagenes/todoroki_foro_2.jpeg");
-  background-size: cover;
-  background-position: center;
+footer .footer-sm {
+  background-color: rgb(156, 9, 9);
+  color: white;
 }
-.bg-foro-3 {
-  background-image: url("../imagenes/academy_foro_busqueda.jpeg");
-  background-size: cover;
-  background-position: center;
+footer .footer-sm a {
+  color: white;
 }
-.text_white {
-  color: black;
+footer .footer-sm .footer-sm__icons {
+  text-align: center;
+}
+footer .footer-bottom__copyright {
+  text-align: center;
+  color: gray;
+  background-color: black;
+}
+footer .footer-bottom__copyright a {
+  color: gray;
   text-decoration: none;
 }
+
+/*# sourceMappingURL=style.css.map */

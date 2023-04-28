@@ -1,0 +1,10 @@
+@mixin imagenfondo($url) {
+  background-image: url($url);
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin padding_top_bottom($padding-top, $padding-bottom) {
+  padding-top: $padding-top;
+  padding-bottom: $padding-bottom;
+}
