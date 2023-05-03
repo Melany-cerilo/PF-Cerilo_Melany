@@ -1,6 +1,22 @@
 .navbar-brand img {
   width: 8rem;
   height: 8rem;
+  animation-name: animacion_logo;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+@keyframes animacion_logo {
+  0% {
+    transform: translateY(10%);
+  }
+  50% {
+    transform: translateY(-10%);
+  }
+  100% {
+    transform: translateY(10%);
+  }
 }
 .menu_nav {
   background-color: $primary-color;

@@ -10,7 +10,14 @@
 .font-bangers {
   font-family: $font-titulo;
 }
+.card_scale {
+  transition: transform 400ms ease-in-out;
 
+  &:hover,
+  &:focus-within {
+    transform: scale(1.06);
+  }
+}
 .titulo {
   @include padding_top_bottom(14rem, 8rem);
 }
