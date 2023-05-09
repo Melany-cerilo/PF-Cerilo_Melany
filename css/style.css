@@ -23,8 +23,7 @@
   background-color: white;
 }
 
-.borde {
-  border: 2px solid rgb(156, 9, 9);
+.caja_centrada {
   margin: 1rem;
   padding: 1rem;
 }
@@ -47,6 +46,22 @@
 .titulo {
   padding-top: 14rem;
   padding-bottom: 8rem;
+}
+
+.borde_rosa {
+  border: 3px solid #8d787d;
+}
+
+.borde_verde {
+  border: 3px solid #336151;
+}
+
+.borde_bordo {
+  border: 3px solid #6f1f28;
+}
+
+.borde_rojo {
+  border: 3px solid rgb(156, 9, 9);
 }
 
 .sobre_nosotros {

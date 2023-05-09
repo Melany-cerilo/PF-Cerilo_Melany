@@ -8,3 +8,7 @@
   padding-top: $padding-top;
   padding-bottom: $padding-bottom;
 }
+
+@mixin borde($color_borde) {
+  border: 3px solid $color_borde;
+}
