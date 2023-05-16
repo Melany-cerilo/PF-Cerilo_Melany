@@ -1,3 +1,36 @@
+@media (min-width: 360px) {
+  #scroll-top-button {
+    position: fixed;
+    bottom: 6rem;
+    right: 0.5%;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    font-size: 1.9rem;
+  }
+}
+@media (min-width: 768px) {
+  #scroll-top-button {
+    position: fixed;
+    bottom: 5rem;
+    right: 0.2%;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    font-size: 2.8rem;
+  }
+}
+@media (min-width: 1300px) {
+  #scroll-top-button {
+    position: fixed;
+    bottom: 4rem;
+    right: 0.5%;
+    text-decoration: none;
+    color: black;
+    background-color: transparent;
+    font-size: 4.5rem;
+  }
+}
 .navbar-brand img {
   width: 8rem;
   height: 8rem;
