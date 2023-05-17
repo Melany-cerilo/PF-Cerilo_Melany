@@ -5,3 +5,11 @@
 .card-body {
   background-color: $background-text-card;
 }
+#scrollButton.show {
+  display: block;
+}
+#scrollButton,
+.btn:focus {
+  outline: none;
+  border: none;
+}

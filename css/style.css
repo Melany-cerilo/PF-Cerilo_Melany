@@ -1,34 +1,42 @@
-@media (min-width: 360px) {
-  #scroll-top-button {
+@media (min-width: 280px) {
+  #scrollButton {
+    display: none;
     position: fixed;
-    bottom: 6rem;
-    right: 0.5%;
-    text-decoration: none;
-    color: black;
+    bottom: 7rem;
+    right: 1%;
+    z-index: 9999;
     background-color: transparent;
-    font-size: 1.9rem;
+    color: black;
+    font-size: 1.5rem;
   }
 }
-@media (min-width: 768px) {
-  #scroll-top-button {
-    position: fixed;
+@media (min-width: 600px) {
+  #scrollButton {
+    bottom: 5.5rem;
+    font-size: 2rem;
+  }
+}
+@media (min-width: 990px) {
+  #scrollButton {
     bottom: 5rem;
-    right: 0.2%;
-    text-decoration: none;
-    color: black;
-    background-color: transparent;
-    font-size: 2.8rem;
+    right: -1%;
+    font-size: 2.5rem;
   }
 }
 @media (min-width: 1300px) {
-  #scroll-top-button {
-    position: fixed;
-    bottom: 4rem;
-    right: 0.5%;
-    text-decoration: none;
-    color: black;
-    background-color: transparent;
-    font-size: 4.5rem;
+  #scrollButton {
+    bottom: 3.6rem;
+    font-size: 4rem;
+  }
+}
+@media (min-width: 1400px) {
+  #scrollButton {
+    right: -0.9%;
+  }
+}
+@media (min-width: 1440px) {
+  #scrollButton {
+    right: 1%;
   }
 }
 .navbar-brand img {
@@ -130,6 +138,16 @@
 
 .card-body {
   background-color: #f2f1ed;
+}
+
+#scrollButton.show {
+  display: block;
+}
+
+#scrollButton,
+.btn:focus {
+  outline: none;
+  border: none;
 }
 
 .text_white {

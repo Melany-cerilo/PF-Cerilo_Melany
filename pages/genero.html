@@ -84,7 +84,7 @@
       </div>
     </nav>
     <main>
-      <div class="titulo" id="top">
+      <div class="titulo">
         <div class="card text-bg-dark shadow bg-body-tertiary rounded">
           <img src="../imagenes/onepiece.jpeg" class="card-img" alt="..." />
           <div class="card-img-overlay bg-opacity-75">
@@ -948,10 +948,10 @@
             </div>
           </div>
         </div>
-        <a href="#top" id="scroll-top-button"
-          ><i class="mover bi bi-arrow-up-circle"></i
-        ></a>
       </section>
+      <button id="scrollButton" onclick="scrollToTop()" class="btn btn-primary">
+        <i class="bi bi-arrow-up-circle"></i>
+      </button>
     </main>
     <footer>
       <div class="footer-sm">
@@ -975,5 +975,28 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <!-- script para ocultar boton scroll to top por posicion de scroll al comienzo de la pagina -->
+    <script>
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        var scrollButton = document.getElementById("scrollButton");
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          scrollButton.classList.add("show");
+        } else {
+          scrollButton.classList.remove("show");
+        }
+      }
+
+      function scrollToTop() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
   </body>
 </html>
